@@ -57,7 +57,7 @@ export default MyApp;
     - ADMIN_SECRET (same than HASURA_GRAPHQL_ADMIN_SECRET)
     - HASURA_GRAPHQL_URL
   - set callback/redirect URL in your app
-- fill in `hasura/config.yaml` file
+- fill in `hasura/config.yaml` file based on `hasura/config.yaml.example`
 - ```bash
   cd hasura
   hasura migrate apply
